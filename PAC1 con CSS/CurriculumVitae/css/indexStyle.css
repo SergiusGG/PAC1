@@ -1,0 +1,438 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 2vw;
+}
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 6%;
+  font-size: 5vw;
+}
+
+/* header */
+header {
+  margin-bottom: 5%;
+}
+.logo {
+  width: 6%;
+  background-color: grey;
+}
+.logo > img {
+  width: 100%;
+}
+.menu {
+  width: 94%;
+  background-color: black;
+}
+.containerMenu {
+  height: 100%;
+  padding-right: 1%;
+}
+.listaMenu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1%;
+  height: 100%;
+  align-items: center;
+}
+.cabecera {
+  display: flex;
+}
+
+.titulo {
+  background-image: url(../img/pexels-james-wheeler-1619317.jpg);
+  height: 25rem;
+  place-content: center;
+  display: grid;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+/* footer  */
+footer {
+  height: 5rem;
+  background-color: grey;
+  margin-top: 6%;
+}
+.rrss {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  height: 100%;
+  align-items: center;
+}
+.sectionRRSS {
+  height: 100%;
+}
+.rrss img {
+  width: 2rem;
+}
+
+/* aficiones */
+.aficiones {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 55%;
+  margin: 0 auto;
+}
+.aficiones > div {
+  display: grid;
+  grid-template-columns: 65% 20%;
+  margin-bottom: 10%;
+  background-color: lightgray;
+  justify-items: center;
+  align-items: center;
+}
+
+.aficiones p {
+  font-size: 3.5vw;
+}
+
+/* saludo  */
+.saludo {
+  margin-bottom: 10%;
+}
+.presentacion {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.presentacion p {
+  width: 90%;
+  font-size: 1rem;
+  line-height: 30px;
+}
+.presentacion img {
+  display: none;
+}
+
+/* experiencia */
+.containerExp {
+  background-color: black;
+  margin-bottom: 10%;
+}
+.containerExp > h2 {
+  color: white;
+}
+.experiencia {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
+.experiencia div {
+  margin-bottom: 5%;
+  max-width: 50%;
+}
+.experiencia img {
+  width: 100%;
+}
+
+/* proyectos */
+.sectProyectos {
+  margin-bottom: 10%;
+}
+.proyectos {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  gap: 0%;
+}
+.proyectosArt img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.proyectosArt p {
+  width: 90%;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+.proyectosArt {
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px -1px 6px black;
+  height: 28rem;
+  margin-bottom: 5%;
+  height: 35rem;
+}
+.proyectosArt button {
+  background-color: black;
+  color: white;
+  width: 45%;
+  padding: 2.5%;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* main  */
+main {
+  display: grid;
+}
+body {
+  display: grid;
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* header */
+
+  .logo {
+    width: 6%;
+    background-color: grey;
+  }
+  .logo > img {
+    width: 100%;
+  }
+  .menu {
+    width: 94%;
+    background-color: black;
+  }
+  .containerMenu {
+    height: 100%;
+    padding-right: 1%;
+  }
+  .listaMenu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1%;
+    height: 100%;
+    align-items: center;
+  }
+  .cabecera {
+    display: flex;
+  }
+
+  .titulo {
+    background-image: url(../img/pexels-james-wheeler-1619317.jpg);
+    height: 25rem;
+    place-content: center;
+    display: grid;
+  }
+  h1 {
+    color: white;
+    font-size: 3rem;
+  }
+
+  /* footer  */
+  footer {
+    height: 5rem;
+    background-color: grey;
+    margin-top: 6%;
+  }
+  .rrss {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    height: 100%;
+    align-items: center;
+  }
+  .sectionRRSS {
+    height: 100%;
+  }
+  .rrss img {
+    width: 2rem;
+  }
+
+  /* aficiones */
+  .aficiones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 75%;
+    margin: 0 auto;
+    gap: 5%;
+  }
+  .aficiones > div {
+    display: grid;
+    grid-template-columns: 65% 30%;
+  }
+
+  /* saludo  */
+  .saludo {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .presentacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  .presentacion p {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .presentacion img {
+    display: none;
+  }
+
+  /* experiencia */
+  .containerExp {
+    background-color: black;
+  }
+  .containerExp > h2 {
+    color: white;
+  }
+  .experiencia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .experiencia div {
+    max-width: 80%;
+  }
+  /* proyectos */
+  .proyectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+  .proyectosArt img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 35%;
+    object-fit: fill;
+  }
+  .proyectosArt p {
+    width: 90%;
+    margin: 7% auto;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 25px;
+  }
+  .proyectosArt {
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px -1px 6px black;
+  }
+  .proyectosArt button {
+    background-color: black;
+    color: white;
+    width: 45%;
+    padding: 2.5%;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* main  */
+  main {
+    display: grid;
+  }
+  body {
+    display: grid;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .presentacion img {
+    display: inline-block;
+  }
+
+  /* aficiones */
+  .aficiones {
+    display: grid;
+    margin: 0 auto;
+    gap: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+  }
+  .aficiones > div {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    justify-items: start;
+    padding: 3%;
+  }
+  .aficiones p {
+    font-size: 2.5rem;
+  }
+
+  /* saludo  */
+  .saludo {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .presentacion {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 60% 35%;
+  }
+  .presentacion p {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+
+  /* experiencia */
+  .containerExp {
+    background-color: black;
+  }
+  .containerExp > h2 {
+    color: white;
+  }
+  .experiencia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+
+  /* proyectos */
+  .proyectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+  .proyectosArt img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 35%;
+    object-fit: fill;
+  }
+  .proyectosArt p {
+    width: 90%;
+    margin: 7% auto;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 35px;
+  }
+  .proyectosArt {
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px -1px 6px black;
+    height: 40rem;
+  }
+  .proyectosArt button {
+    background-color: black;
+    color: white;
+    width: 45%;
+    padding: 2.5%;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+  }
+}
